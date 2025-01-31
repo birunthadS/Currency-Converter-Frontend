@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Song Myung:wght@400;500;700&family=Tapestry&display=swap');
+
+
+* {
+  font-family: 'Song Myung';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://png.pngtree.com/background/20230616/original/pngtree-virtual-stack-of-cryptocurrencies-bitcoin-ethereum-binance-coins-in-3d-render-picture-image_3634058.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 0;
+}
+
+.currency-convertor {
+  width: 400px;
+  background-color: rgb(254, 254, 255);
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  opacity: 0.85; 
+}
+
+h1{
+  font-family: 'Tapestry'; 
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 22.95px;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  word-spacing: 5px;
+}
+
+.box{
+  width: 100%;
+  height: 150px;
+  background-image: url("https://img.freepik.com/premium-vector/rupee-dollar-currency-sign-exchange-money-conversion_149267-3045.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-container{
+  margin-bottom: 15px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: #02080d;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+input,
+select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #c8c7e6;
+  border-radius: 4px;
+  font-size: 17px;
+  outline:none;
+}
+
+input:focus,
+select:focus{
+  border-color: #0d197f;
+}
+
+.result{
+  margin: 20px 0px;
+  padding: 10px;
+  border: 3px solid #09a316;
+  border-radius: 4px;
+  background-color: #0eb719;
+}
+
+.result p{
+  margin: 10px 0;
+  color:#ffffff;
+  font-weight: 850;
+  text-align: center;
+  font-size: 22px;
+  word-spacing: 4px;
+}
